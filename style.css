@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  --background-c: hsl(210, 45%, 60%);
+  background-color: var(--background-c, lightgray);
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", Helvetica, sans-serif;
+  text-align: center;
+}
+
+#survey-h1 {
+  padding-top: 20px;
+  margin: 10px;
+  font-size: 42px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para {
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.form-group {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  width: 35%;
+}
+textarea {
+  width: 50%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  height: 150px;
+}
+label input[type="radio"] {
+  position: relative;
+  size: 15px;
+  height: 15px;
+  width: 15px;
+}
+select {
+  width: 15%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 16px;
+}
+::-moz-placeholder { 
+  color: pink;
